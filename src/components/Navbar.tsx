@@ -21,8 +21,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <Scissors className="h-8 w-8 text-purple-600" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            <Scissors className="h-8 w-8 text-amber-600" />
+            <span className="text-2xl font-bold bg-gradient-to-r from-amber-600 to-yellow-600 bg-clip-text text-transparent">
               Artistry Hair Salon
             </span>
           </Link>
@@ -35,8 +35,8 @@ const Navbar = () => {
                 to={item.path}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   location.pathname === item.path
-                    ? "text-purple-600 bg-purple-50"
-                    : "text-gray-700 hover:text-purple-600 hover:bg-purple-50"
+                    ? "text-amber-700 bg-amber-50"
+                    : "text-gray-700 hover:text-amber-700 hover:bg-amber-50"
                 }`}
               >
                 {item.name}
@@ -66,8 +66,8 @@ const Navbar = () => {
                   to={item.path}
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
                     location.pathname === item.path
-                      ? "text-purple-600 bg-purple-50"
-                      : "text-gray-700 hover:text-purple-600 hover:bg-purple-50"
+                      ? "text-amber-700 bg-amber-50"
+                      : "text-gray-700 hover:text-amber-700 hover:bg-amber-50"
                   }`}
                   onClick={() => setIsOpen(false)}
                 >

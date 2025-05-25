@@ -97,7 +97,7 @@ const Gallery = () => {
             <Badge 
               key={category} 
               variant="secondary" 
-              className="px-4 py-2 cursor-pointer hover:bg-purple-100 hover:text-purple-700 transition-colors"
+              className="px-4 py-2 cursor-pointer hover:bg-amber-100 hover:text-amber-700 transition-colors"
             >
               {category}
             </Badge>
@@ -116,15 +116,15 @@ const Gallery = () => {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
                   <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex space-x-4">
-                    <div className="bg-white rounded-full p-2 cursor-pointer hover:bg-purple-50">
-                      <Heart className="h-5 w-5 text-purple-600" />
+                    <div className="bg-white rounded-full p-2 cursor-pointer hover:bg-amber-50">
+                      <Heart className="h-5 w-5 text-amber-600" />
                     </div>
-                    <div className="bg-white rounded-full p-2 cursor-pointer hover:bg-purple-50">
-                      <Camera className="h-5 w-5 text-purple-600" />
+                    <div className="bg-white rounded-full p-2 cursor-pointer hover:bg-amber-50">
+                      <Camera className="h-5 w-5 text-amber-600" />
                     </div>
                   </div>
                 </div>
-                <Badge className="absolute top-3 left-3 bg-purple-600">
+                <Badge className="absolute top-3 left-3 bg-amber-600">
                   {item.category}
                 </Badge>
               </div>
@@ -156,14 +156,14 @@ const Gallery = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-12">
-          <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg p-8 text-white">
+          <div className="bg-gradient-to-r from-amber-600 to-yellow-600 rounded-lg p-8 text-white">
             <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Look?</h2>
             <p className="text-xl opacity-90 mb-6">
               Book your appointment today and let our expert stylists create something beautiful for you.
             </p>
             <a 
               href="/booking" 
-              className="inline-block bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+              className="inline-block bg-white text-amber-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Book Now
             </a>

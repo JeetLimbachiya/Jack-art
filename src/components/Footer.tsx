@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Scissors className="h-8 w-8 text-purple-400" />
+              <Scissors className="h-8 w-8 text-amber-400" />
               <span className="text-2xl font-bold">Artistry Hair Salon</span>
             </div>
             <p className="text-gray-300 mb-4">
@@ -21,15 +21,15 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <MapPin className="h-5 w-5 text-purple-400" />
+                <MapPin className="h-5 w-5 text-amber-400" />
                 <span className="text-gray-300">123 Beauty Street, Style City</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-purple-400" />
+                <Phone className="h-5 w-5 text-amber-400" />
                 <span className="text-gray-300">(555) 123-HAIR</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-purple-400" />
+                <Mail className="h-5 w-5 text-amber-400" />
                 <span className="text-gray-300">info@artistryhair.com</span>
               </div>
             </div>
@@ -39,7 +39,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Hours</h3>
             <div className="space-y-2 text-gray-300">
               <div className="flex items-center space-x-3">
-                <Clock className="h-5 w-5 text-purple-400" />
+                <Clock className="h-5 w-5 text-amber-400" />
                 <div>
                   <p>Mon-Fri: 9:00 AM - 8:00 PM</p>
                   <p>Sat-Sun: 9:00 AM - 4:00 PM</p>

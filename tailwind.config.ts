@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom salon color palette
+				sage: {
+					50: '#f6f7f6',
+					100: '#e3e7e3',
+					200: '#c7d0c7',
+					300: '#a1b1a1',
+					400: '#7a8f7a',
+					500: '#5f735f',
+					600: '#4b5a4b',
+					700: '#3d483d',
+					800: '#323a32',
+					900: '#2a302a',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
