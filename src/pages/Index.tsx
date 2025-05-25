@@ -126,7 +126,7 @@ const Index = () => {
 
             <Card className="hover:shadow-lg transition-shadow duration-300 border-0 bg-white/80 backdrop-blur-sm">
               <CardHeader>
-                <CardTitle className="text-2xl text-sage-600">Color & Highlights</CardTitle>
+                <CardTitle className="text-2xl text-amber-600">Color & Highlights</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">Expert color treatments and highlighting techniques.</p>
