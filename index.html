@@ -23,27 +23,5 @@
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
     
-<!-- -------------------------------------! -->
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-  <script>
-    const supabaseUrl = 'https://dsqjoegxjfztcffskpkv.supabase.co';
-    const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRzcWpvZWd4amZ6dGNmZnNrcGt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk4MzYxODQsImV4cCI6MjA2NTQxMjE4NH0.lsnQHnwuuVspF_wOVor18f44N-2VfUbESms_B8BkmRo';
-    const supabase = supabase.createClient(supabaseUrl, supabaseKey);
-    async function submitBooking(name, email, date) {
-      const { data, error } = await supabase
-        .from('bookings')
-        .insert([{ name, email, date }]);
-  
-      if (error) {
-        alert("Something went wrong: " + error.message);
-        console.error(error);
-      } else {
-        alert("Booking submitted successfully!");
-        console.log("New booking:", data);
-      }
-    }
-  </script>
-
-    
   </body>
 </html>
